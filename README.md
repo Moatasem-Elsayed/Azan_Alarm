@@ -19,3 +19,5 @@
 - compare current time with prayers time then play mp3 with azan
 
 - run the application in background and push notifcation once azan is happen 
+
+- get the timing according to the cordinates and location of your pc 
