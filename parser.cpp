@@ -1,8 +1,7 @@
 #include "parser.hpp"
 #include <algorithm>
 #include <array>
-std::map<std::string, std::string> Parser::m_currentlist;
-std::string Parser::m_currentbody;
+
 std::string Parser::get_time(const std::string lablel)
 {
     std::string result;

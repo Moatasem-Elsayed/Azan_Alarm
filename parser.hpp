@@ -5,10 +5,10 @@
 class Parser
 {
 private:
-    static std::map<std::string, std::string> m_currentlist;
-    static std::string m_currentbody;
-    static std::string get_time(std::string lablel);
+    std::map<std::string, std::string> m_currentlist;
+    std::string m_currentbody;
+    std::string get_time(std::string lablel);
 
 public:
-    static std::map<std::string, std::string> list_prayers(std::string body);
+    std::map<std::string, std::string> list_prayers(std::string body);
 };
