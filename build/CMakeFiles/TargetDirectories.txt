@@ -1,0 +1,3 @@
+/home/abdelrahman/Desktop/open source/Azan_Alarm/build/CMakeFiles/azan_alarm.dir
+/home/abdelrahman/Desktop/open source/Azan_Alarm/build/CMakeFiles/edit_cache.dir
+/home/abdelrahman/Desktop/open source/Azan_Alarm/build/CMakeFiles/rebuild_cache.dir

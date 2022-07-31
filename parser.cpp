@@ -27,7 +27,7 @@ std::map<std::string, std::string> Parser::list_prayers(std::string body)
     for (int i = 0; i < p.size(); i++)
     {
         m_currentlist.insert({p[i], get_time(p[i])});
-        std::cout << p[i] << ":\t" << m_currentlist[p[i]] << std::endl;
+       // std::cout << p[i] << ":\t" << m_currentlist[p[i]] << std::endl;
     }
 
     return m_currentlist;
