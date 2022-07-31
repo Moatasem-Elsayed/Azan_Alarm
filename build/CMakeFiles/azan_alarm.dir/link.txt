@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/azan_alarm.dir/main.cpp.o CMakeFiles/azan_alarm.dir/client.cpp.o CMakeFiles/azan_alarm.dir/parser.cpp.o CMakeFiles/azan_alarm.dir/clockmanger.cpp.o CMakeFiles/azan_alarm.dir/services.cpp.o CMakeFiles/azan_alarm.dir/UI_Manger.cpp.o -o azan_alarm  -lpthread -lsfml-audio -lsfml-system 
