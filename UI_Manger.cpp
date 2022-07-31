@@ -75,9 +75,10 @@ void UI_Manger::show_current_config(std::string city,std::string country,int met
 void UI_Manger::edit_city_country(std::string&city,std::string&country){
     reset_screen();
     cout<<"enter city"<<endl;
-    cin>>city;
+    cin.ignore();
+    getline(cin,city); 
     cout<<"enter country"<<endl;
-    cin>>country;
+    getline(cin,country); 
 }
 void UI_Manger::edit_calc_method(int &method){
     reset_screen();
