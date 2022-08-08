@@ -9,5 +9,5 @@ std::string ClockManger::Clock_now()
     timestr.pop_back();
     auto it = timestr.find(":");
     it -= 2;
-    return timestr.substr(it, 8);
+    return '"'+timestr.substr(it, 5)+'"';//to get hours:min only
 }
